@@ -34,6 +34,8 @@ This tutorial will walk you through the creation of a very basic website using o
       var q = url.parse(req.url, true);
       var filename = "." + q.pathname;
       ```
+
+
    
 9. Inside the `createServer` function, after the the previous lines of code, add code to load the appropriate HTML file based on the URL. For example the URL `http://localhost:8080/index.html` will load the `index.html` file.
       
